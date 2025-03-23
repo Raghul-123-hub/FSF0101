@@ -1,91 +1,17 @@
 body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #f5eded;
-    color: #27058f;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+  line-height: 1.6;
 }
 
-header {
-    background: #091d11;
-    color: rgb(191, 223, 111);
-    padding: 15px;
-    text-align: center;
+#app {
+  max-width: 800px;
+  margin: 0 auto;
 }
 
-nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0 10%;
+h1 {
+  color: #333;
 }
 
-.nav-links {
-    list-style: none;
-    display: flex;
-    gap: 20px;
-}
 
-.nav-links li a {
-    text-decoration: none;
-    color: rgb(13, 178, 224);
-    font-size: 18px;
-}
-
-.hero {
-    text-align: center;
-    padding: 50px 20px;
-    background: #7337a3;
-    color: rgb(228, 92, 92);
-    box-shadow: 22px 22px 29px rgba(230, 73, 6, 0.844);
-}
-
-.hero span {
-    color: rgb(255, 170, 0);
-}
-
-.btn {
-    display: inline-block;
-    background: rgb(10, 214, 240);
-    color: black;
-    padding: 10px 20px;
-    text-decoration: none;
-    margin-top: 10px;
-    font-weight: bold;
-    border-radius: 5px
-}
-
-#about, #projects, #contact {
-    padding: 50px 20px;
-    text-align: center;
-}
-
-.projects-container {
-    display: flex;
-    justify-content: center;
-    gap: 20px;
-    flex-wrap: wrap;
-}
-
-.project-card {
-    background: rgb(37, 209, 57);
-    padding: 20px;
-    border-radius: 8px;
-    box-shadow: 20px 20px 50px rgba(133, 6, 230, 0.785);
-}
-
-form input, form textarea {
-    width: 100%;
-    padding: 10px;
-    margin: 10px 0;
-    border-radius: 5px;
-    border: 3px solid #9612bb;
-}
-
-footer {
-    text-align: center;
-    padding: 10px;
-    background: #000000;
-    color: rgb(112, 233, 98);
-    margin-top: 20px;
-}
